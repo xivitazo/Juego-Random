@@ -13,18 +13,13 @@
   <ItemGroup>
     <ClInclude Include="..\src\Atacante.h" />
     <ClInclude Include="..\src\Color.h" />
-    <ClInclude Include="..\src\Coordinador.h" />
-    <ClInclude Include="..\src\Cuartel.h" />
     <ClInclude Include="..\src\Mobjeto.h" />
     <ClInclude Include="..\src\Vivo.h" />
     <ClInclude Include="..\src\Fabrica.h" />
-    <ClInclude Include="..\src\Interaccion.h" />
     <ClInclude Include="..\src\Equipo.h" />
-    <ClInclude Include="..\src\Mapa.h" />
-    <ClInclude Include="..\src\Menus.h" />
     <ClInclude Include="..\src\Mundo.h" />
     <ClInclude Include="..\src\Objeto.h" />
-    <ClInclude Include="..\src\Personaje.h" />
+    <ClInclude Include="..\src\Matacante.h" />
     <ClInclude Include="..\src\Recursos.h" />
     <ClInclude Include="..\src\Vector.h" />
   </ItemGroup>

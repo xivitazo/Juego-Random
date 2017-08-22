@@ -1,9 +1,10 @@
 #pragma once
-#include "Personaje.h"
+#include "Matacante.h"
 #include "Cuartel.h"
 #include "Fabrica.h"
 #include "Recursos.h"
 #include "Interaccion.h"
+//#include "Lista.h"
 
 //Tamaño del vector de cosas
 #define MAX_TIPOS 13 
@@ -31,6 +32,7 @@ class Equipo
 	//Vector que contiene edificios y personajes
 	Luchadores cola_generar[COLA];
 	int numero_cola;
+
 
 
 	//Atrinutos Type-Luchadores

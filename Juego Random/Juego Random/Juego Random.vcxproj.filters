@@ -18,22 +18,10 @@
     <ClInclude Include="..\src\Fabrica.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\Interaccion.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Mapa.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Menus.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\Mundo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Objeto.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Personaje.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Recursos.h">
@@ -43,12 +31,6 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Color.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Coordinador.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Cuartel.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Atacante.h">
@@ -61,6 +43,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Equipo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Matacante.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
