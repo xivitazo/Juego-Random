@@ -1,5 +1,13 @@
-﻿Compilación iniciada a las 21/08/2017 20:02:35.
+﻿Compilación iniciada a las 23/08/2017 8:38:37.
+     1>Proyecto "C:\Users\Javi\Documents\GitHub\Juego-Random\Juego Random\Juego Random\Juego Random.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Lista.cpp
+         Lista.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javi\Documents\GitHub\Juego-Random\Juego Random\Debug\Juego Random.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Javi\Documents\GitHub\Juego-Random\Juego Random\Debug\Juego Random.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javi\Documents\GitHub\Juego-Random\Juego Random\Debug\Juego Random.lib" /MACHINE:X86 Debug\Lista.obj
+     1>LINK : fatal error LNK1561: se debe definir el punto de entrada
+     1>Compilación del proyecto terminada "C:\Users\Javi\Documents\GitHub\Juego-Random\Juego Random\Juego Random\Juego Random.vcxproj" (Build destinos) -- ERROR.
 
-Compilación correcta.
+ERROR al compilar.
 
-Tiempo transcurrido 00:00:00.05
+Tiempo transcurrido 00:00:02.27

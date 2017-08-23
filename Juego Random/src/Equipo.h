@@ -4,7 +4,7 @@
 #include "Fabrica.h"
 #include "Recursos.h"
 #include "Interaccion.h"
-//#include "Lista.h"
+#include "Lista.h"
 
 //Tamaño del vector de cosas
 #define MAX_TIPOS 13 
@@ -15,7 +15,6 @@ enum General {EDIFICIOS, COMBATIENTES};
 
 class Equipo
 {
-	int numero;
 	
 	//Nos informa si el ayuntamiento sigue vivo
 	bool ayuntamiento;
@@ -24,14 +23,18 @@ class Equipo
 
 	Color equipo;
 	unsigned int *max;
-	unsigned int limite_tropas;// limite por unidad de tiempo
+	//unsigned int limite_tropas;// limite por unidad de tiempo
 
+	/*int numero;
 	//Numero de "cosas" generadas
 	//Distinto del numero de tropas y demás
 	Vivo  *lista [MAX];
-	//Vector que contiene edificios y personajes
+	//Vector que contiene edificios y personajes*/
+	/*
 	Luchadores cola_generar[COLA];
-	int numero_cola;
+	int numero_cola;*/
+	Lista <Matacante> cola;
+	Lista <Vivo> lista;
 
 
 
@@ -51,8 +54,8 @@ class Equipo
 	
 
 public:
-	Lista_de(Vector ayuntamiento, Color equipo);
-	~Lista_de(void);
+	Equipo(Vector ayuntamiento, Color equipo);
+	~Equipo(void);
 	bool Agregar (Type tipo, Vector posicion);	
 	bool Agregar (Luchadores especifico, Vector destino);	
 	/*
@@ -76,27 +79,27 @@ public:
 	int Morir (); 
 	//devuelve cuantos personajes han muerto en el bucle
 	//los muertos se iguala la direccion a 0 para poder corroborar que no se ha borrado
-	int getNumero(){return numero;}
+	int getNumero();
 	bool subirNivel (Type tipo);
 	bool subirNivel(Luchadores tipo);
 	void Timer (float t);
 	void Rebote();
 	bool generarRecursos();
-	Edificio* getPosN(int posicion){return lista[posicion];}
-	Edificio** getLista() {return lista;}
+	Vivo* getPosN(int posicion){return lista[posicion];}
+	Vivo** getLista();
 	Recursos getAlmacen(){return almacen;}
 	int getNivel(Type tipo){return nivel[tipo];}
 	int getNivel(Luchadores tipo){return nivel[LUCHADOR+tipo];}
 	int getMax (General tipo){return max_Type[tipo];}
-	int atacar(Disparo** disparos, Edificio** enemigos);
+	int atacar(Disparo** disparos, Vivo** enemigos);
 	void inicializarCostes();
 	bool generarCombatientes();
 	void AñadirOro(int n){almacen.set(almacen.getComida(),almacen.getHierro(),almacen.getOro()+n);}
 	void AñadirComida(int n){almacen.set(almacen.getComida()+n,almacen.getHierro(),almacen.getOro());}
 	void AñadirHierro(int n){almacen.set(almacen.getComida(),almacen.getHierro()+n,almacen.getOro());}
 	bool perder(){return !ayuntamiento;}
-	Luchadores* getCola(){return cola_generar; }
-	int getNumCola(){return numero_cola;}
+	Luchadores* getCola();
+	int getNumCola();
 	bool huir ();
 	void setDestino(Vector& destino){this->destino=destino;}
 	Vector getDestino(){return destino;}
@@ -105,6 +108,5 @@ public:
 
 
 
-	void prueba(int tipo);
 	friend class Menus;
 };

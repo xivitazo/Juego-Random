@@ -1,5 +1,4 @@
 #pragma once
-#include "Vector.h"
 #include "Objeto.h"
 
 class Mobjeto : public Objeto

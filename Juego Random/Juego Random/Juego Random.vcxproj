@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClInclude Include="..\src\Atacante.h" />
     <ClInclude Include="..\src\Color.h" />
+    <ClInclude Include="..\src\Lista.h" />
     <ClInclude Include="..\src\Mobjeto.h" />
     <ClInclude Include="..\src\Vivo.h" />
     <ClInclude Include="..\src\Fabrica.h" />
@@ -22,6 +23,9 @@
     <ClInclude Include="..\src\Matacante.h" />
     <ClInclude Include="..\src\Recursos.h" />
     <ClInclude Include="..\src\Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Lista.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1CCF5C1F-0FEC-4435-8D12-A724E4CA756C}</ProjectGuid>

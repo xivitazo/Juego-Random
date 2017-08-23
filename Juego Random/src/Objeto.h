@@ -1,7 +1,6 @@
 #pragma once
 #include <cstdlib>
 #include "Vector.h"
-#include "Vector3D.h"
 #include "Color.h"
 
 enum Planta {NO_GEOMETRIA, CUADRADO, REDONDO};

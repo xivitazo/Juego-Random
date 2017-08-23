@@ -11,6 +11,7 @@ public:
 	unsigned int getRed ();
 	unsigned int getGreen ();
 	unsigned int getBlue ();
+	void pintar();
 	bool operator == (Color &c);
 };
 
