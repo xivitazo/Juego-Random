@@ -26,6 +26,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Lista.cpp" />
+    <ClCompile Include="..\src\Vector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1CCF5C1F-0FEC-4435-8D12-A724E4CA756C}</ProjectGuid>

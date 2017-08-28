@@ -1,4 +1,8 @@
 #pragma once
+
+//HAY QUE PENSAR QUE RECURSOS QUEREMOS USAR DENTRO DE PARTIDA Y QUE RECURSOS FUERA DE ELLA
+
+
 class Recursos
 {
 	unsigned int comida,hierro,oro;

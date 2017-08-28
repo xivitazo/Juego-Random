@@ -1,15 +1,13 @@
 #pragma once
-#include "Lista_de.h"
+#include "Equipo.h"
 #include "Mapa.h"
-#include "Vector3D.h"
-#include "Disparo.h"
+#include "Mobjeto.h"
 
 class Mundo
 {
 	Mapa map;
-	Lista_de jugador1, jugador2;
-	Disparo* disparos[MAX];
-	int numero;
+	Equipo jugador1, jugador2;
+	Lista <Mobjeto> disparos;
 
 public: 
 	Mundo();

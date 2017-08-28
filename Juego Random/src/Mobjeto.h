@@ -1,6 +1,11 @@
 #pragma once
 #include "Objeto.h"
 
+
+//ESTA CLASE TENDRA QUE SER DIVIDIDA YA QUE AUN ES LA CLASE DISPARO
+//HAY QUE SEPARAR LA PARTE DEL ATAQUE DE LA DEL MOVIMIENTO
+
+
 class Mobjeto : public Objeto
 {
 protected:

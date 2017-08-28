@@ -2,6 +2,8 @@
 #include "Atacante.h"
 #include "Mobjeto.h"
 
+//HAY QUE QUITAR LA PARTE DEL MOVIMIENTO DE ESTA CLASE, DE ELLO SE ENCARGARÁ Mobjeto
+
 class Matacante : public Atacante, public Mobjeto
 {
 protected:

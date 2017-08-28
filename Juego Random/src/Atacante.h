@@ -16,7 +16,7 @@ public:
 	void Timer (float t);
 	void Dibuja(Color equipo=0);
 	void subirNivel();
-	bool poderDisparar();
+	bool poderAtacar();
 	bool mover(Vector destino){return false;}
 
 
